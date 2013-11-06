@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_vErwUEbwEeOA25rg-NqFzg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_viKWgEbwEeOA25rg-NqFzg" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_2LgpEEbwEeOA25rg-NqFzg" elementId="org.codestorming.spibuilder.command.toggleSpiBuilder" commandName="Toggle SPI Builder"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_48JksEbwEeOA25rg-NqFzg" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_7DwxcEbwEeOA25rg-NqFzg" elementId="org.codestorming.spibuilder.handler.toggleSpiBuilder" contributionURI="bundleclass://org.codestorming.spibuilder/org.codestorming.spibuilder.handler.ToggleSPIBuilderHandler" command="_2LgpEEbwEeOA25rg-NqFzg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_-BZnQEbwEeOA25rg-NqFzg" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="__obPcEbwEeOA25rg-NqFzg" elementId="org.codestorming.spibuilder.menucontribution.toggleSpiBuilder" parentId="org.eclipse.ui.projectConfigure">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_C9TgkEbxEeOA25rg-NqFzg" label="Toggle SPI Builder" command="_2LgpEEbwEeOA25rg-NqFzg"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
